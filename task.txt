@@ -1,0 +1,4 @@
+You are tasked with assisting with data reduction to isolate potential stellar stream members based on proper motion and position cuts. In gaia_gd1.csv, you are provided with a query from Gaia with stars in a wide cut around the location of the known GD-1 stellar stream with the following columns: ra, dec, pmra, pmdec, phot_g_mean_mag, bp_rp, and SOURCE_ID.
+
+### Problem Description
+Galstreams provides the tracks for right ascension, declination, distance (kpc), proper motions (ra, dec, in mas/yr), and radial_velocity (km/s), of known stellar streams. Use the galstreams stream track data provided for a single stellar stream to make cuts in proper motion and phi2 about the GD-1 stream track, where phi2 is in the coordinate frame rotated to be centered on the stream. Return a final list of SOURCE_ID for potential member stars.
